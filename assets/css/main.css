@@ -1,3 +1,6 @@
+@import "./navigation/navigation.css";
+
+
 /*========== margins ==========*/
 
 *{
@@ -24,6 +27,7 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:link {
@@ -32,6 +36,16 @@ a:link {
 
 a:visited {
     color: white;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
 }
 
 /*====== image formatting =====*/
@@ -60,7 +74,7 @@ img {
 
 .background-color{
 
-    color: var(--background-color,rgb(37, 37, 37));
+    background-color: var(--background-color,rgb(37, 37, 37));
 
 }
 

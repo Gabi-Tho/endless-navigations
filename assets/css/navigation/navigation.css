@@ -1,0 +1,29 @@
+nav{
+
+
+    display: flex;
+
+}
+
+nav>ul{
+    
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    flex-grow: 1;
+
+    background-color: rgb(37, 37, 37);
+    justify-content: center;
+
+}
+
+nav li{
+    /* display: flex; */
+    padding: 10px;
+}
+
+nav li:hover{
+   font-style: italic;
+}
+
+
