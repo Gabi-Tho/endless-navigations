@@ -24,31 +24,6 @@ body{
 }
 
 
-/*============== navigation =============*/
-
-nav{
-
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(253, 212, 135);
-    width: 15vw;
-    height: 100vh;
-    /* padding: 10px; */
-    margin: 0;
-}
-
-nav>a{
-
-    padding: 10px;
-    outline: black;
-
-}
-
-nav>h3{
-    padding: 10px;
-}
-
-
 /*============= body ==================*/
 
 
@@ -76,6 +51,32 @@ aside{
 }
 
 
+
+
+/*============== navigation =============*/
+
+nav{
+
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(253, 212, 135);
+    width: 15vw;
+    height: 100vh;
+    /* padding: 10px; */
+    margin: 0;
+}
+
+nav>a{
+
+    padding: 10px;
+    outline: black;
+
+}
+
+nav>h3{
+    padding: 10px;
+}
+
 /*============= hover =================*/
 
 
@@ -84,3 +85,57 @@ nav>a:hover{
     background-color: rgb(247, 176, 45);
 
 }
+
+span:hover{
+    background-color: rgb(247, 176, 45);
+}
+
+
+/*======== dropdown navigation ======= */
+
+
+span{
+    
+    width: 100vw;
+}
+
+.dropdown-container{
+    display:block;
+    padding: 10px;
+}
+
+.dropdown-content{
+    margin-left: 15vw;
+}
+
+.dropdown-content>a{
+    padding: 5px 10px 10px 10px;
+    display: block;
+}
+
+/*======== dropdown navigation hover =======*/
+
+.dropdown-container:not(:hover) .dropdown-content{
+    display: none;
+    background-color: rgb(247, 176, 45);
+}
+
+.icon:hover{
+
+    font-weight: 100;
+
+}
+
+/*================== icon ==================*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  .icon{
+    padding: 10px;
+  }
