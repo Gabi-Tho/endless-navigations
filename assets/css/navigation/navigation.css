@@ -21,6 +21,71 @@ nav li{
 
 nav li:hover{
    font-style: italic;
+
+}
+
+span{
+    color: white;
+    padding: 10px;
+}
+
+/*========== dropdown menu ============*/
+
+.dropdown-menu{
+    position: relative;
+
+}
+
+.dropdown-content{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+.dropdown-menu:not(:hover) .dropdown-content{
+    display: none;
 }
 
 
+
+/*========== color-palette ============*/
+
+a.orange:hover{
+    color: orange;
+}
+
+a.yellow:hover{
+    color: rgb(255, 251, 0);
+    text-shadow: 1px white;
+}
+
+a.green:hover{
+    color: green;
+}
+
+a.blue:hover{
+    color: rgb(108, 179, 255)
+}
+
+a.indigo:hover{
+    color:rgb(33, 91, 121);
+    text-shadow: 1px white;
+}
+
+a.violet:hover{
+    color: rgb(161, 130, 161);
+    text-shadow: 1px white;
+}
+
+span.other:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/*========== body ============*/
+
+body{
+    background-color: grey;
+}
