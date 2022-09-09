@@ -96,16 +96,24 @@ span:hover{
 
 span{
     
-    width: 100vw;
+    display: block;
+    padding: 10px;
 }
 
 .dropdown-container{
+
+    /* this allows top to function and position items */
+    position: relative;
     display:block;
-    padding: 10px;
+
 }
 
 .dropdown-content{
     margin-left: 15vw;
+    /* prevents the weird shift */
+    position: absolute;
+    /* use this to shift content without making weird gaps in containers */
+    top: 0;
 }
 
 .dropdown-content>a{
@@ -128,14 +136,16 @@ span{
 
 /*================== icon ==================*/
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+.icon-container{
 
-  .icon{
+    display: flex;
     padding: 10px;
-  }
+    margin-top: auto;
+    justify-content: space-around;
+    
+}
+
+.icon{
+    padding: 10px;
+    /* margin-left: 80%; */
+}
