@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 1px dashed white;
+    /* outline: 1px dashed white; */
 }
 
 
@@ -64,6 +64,7 @@ img {
 body{
     background-color:rgb(151, 199, 118);
     flex: nowrap;
+    font-family: 'Audiowide', cursive;
 }
 
 
@@ -129,10 +130,11 @@ body>section{
 
 }
 
-.grid_3col{
+.grid_col{
 
     display: flex;
     gap: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -140,13 +142,31 @@ body>section{
 
     width: 100%;
     text-align: center;
-    padding: 0 60px;
+    padding: 0 40px;
 
 }
 
-li{
+.footer_col h4{
 
-    padding: 10px;
+    font-size: 22px;
+
+}
+
+.footer_col p{
+
+    font-size: 13px;
+    font-weight: 300;
+    margin: 10px 0;
+
+}
+
+.footer .btn{
+
+    margin: 5px;
+    font-size: 12px;
+    align-self: stretch;
+    padding: 5px;
+    display: inline-block;
 
 }
 
