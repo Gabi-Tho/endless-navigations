@@ -181,6 +181,17 @@ body>section{
 
 }
 
+/*============ footer buttons =========== */
+
+.input-footer{
+
+    border-radius: 10%;
+    width: 50%;
+    opacity: 50%;
+
+}
+
+
 
 /*================ icons ================*/
 
