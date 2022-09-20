@@ -11,8 +11,8 @@
 
 /*=========== spacing ==========*/
 
-*+p, *+img, *+small, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 { 
-	margin-top: 20px; 
+*+p, *+img, *+small, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+	margin-top: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -69,7 +69,7 @@ body{
 
 
 header{
-    
+
     background-color: rgb(151, 199, 118);
     height: 40vh;
     margin: 0;
@@ -130,6 +130,12 @@ body>section{
 
 }
 
+.footer-link:hover{
+
+    font-style: italic;
+
+}
+
 .grid_col{
 
     display: flex;
@@ -160,19 +166,10 @@ body>section{
 
 }
 
-.footer .btn{
-
-    margin: 5px;
-    font-size: 12px;
-    align-self: stretch;
-    padding: 5px;
-    display: inline-block;
-
-}
 
 
 .weed-logo{
-
+    
     height: 60px;
     width: 60px;
     margin-left: auto;
@@ -183,11 +180,26 @@ body>section{
 
 /*============ footer buttons =========== */
 
-.input-footer{
+.footer .btn{
 
-    border-radius: 10%;
+    margin: 5px;
+    font-size: 12px;
+    align-self: stretch;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.404);
+
+}
+
+.input-footer{
+    
+    border-radius: 5px;
     width: 50%;
     opacity: 50%;
+    height: 25px;
+    box-shadow: inset 1px 1px 3px #ccc;
+    border-radius: 5px;
+    outline: 1px solid transparent;
 
 }
 
@@ -223,3 +235,4 @@ i{
    color: white;
    padding: 5px;
 }
+
