@@ -67,12 +67,36 @@ body{
     font-family: 'Audiowide', cursive;
 }
 
+/*================== header =================*/
+
+
 
 header{
 
     background-color: rgb(151, 199, 118);
-    height: 40vh;
+    /* height: 40vh; */
     margin: 0;
+    display: flex;
+
+}
+
+header::before,
+header::after{
+
+    content: "";
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex-grow: 1;
+    align-self: center;
+    
+}
+
+h1{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    font-size: xx-large;
 
 }
 
@@ -196,10 +220,10 @@ body>section{
     border-radius: 5px;
     width: 50%;
     opacity: 50%;
-    height: 25px;
     box-shadow: inset 1px 1px 3px #ccc;
     border-radius: 5px;
     outline: 1px solid transparent;
+    padding: 5px;
 
 }
 

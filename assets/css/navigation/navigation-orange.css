@@ -9,7 +9,7 @@
 } */
 
 body{
-    background: rgb(247, 176, 45);
+    background-color: rgb(247, 126, 45);
     display: flex;
     height: 100%;
     font-family: 'Fredoka One', cursive;
@@ -59,7 +59,7 @@ nav{
 
     display: flex;
     flex-direction: column;
-    background-color:rgb(253, 212, 135);
+    background-color: rgba(252, 161, 101, 0.76);
     width: 15vw;
     height: 100vh;
     /* padding: 10px; */
@@ -82,12 +82,12 @@ nav>h3{
 
 nav>a:hover{
 
-    background-color: rgb(247, 176, 45);
+    background-color: rgba(252, 161, 101, 0.76);
 
 }
 
 span:hover{
-    background-color: rgb(247, 176, 45);
+    background-color: rgba(247, 200, 169, 0.76);
 }
 
 
@@ -125,13 +125,18 @@ span{
 
 .dropdown-container:not(:hover) .dropdown-content{
     display: none;
-    background-color: rgb(247, 176, 45);
+    background-color: rgb(247, 126, 45);
 }
 
 .icon:hover{
 
     font-weight: 100;
 
+}
+
+.dropdown-content a:hover{
+
+    background-color: rgba(252, 161, 101, 0.76);
 }
 
 /*================== icon ==================*/
