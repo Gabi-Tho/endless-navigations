@@ -47,6 +47,12 @@ span{
     display: none;
 }
 
+.dropdown-content>li:hover{
+
+    background: white;
+
+}
+
 
 
 /*========== color-palette ============*/
