@@ -95,3 +95,43 @@ span.other:hover{
 body{
     background-color: grey;
 }
+
+
+/*=========== form ===========*/
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+form{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    flex-direction: column;
+    width: 28vw;
+    border-radius: 10%;
+}
+
+input{
+    margin: 0px 0px 10px 0px;
+    align-self: center;
+    font-family: 'Fredoka One', cursive;
+    padding: 10px;
+}
+
+label{
+    margin: 5px 0px 0px 0px;
+    align-self: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+fieldset{
+
+    margin: 10px;
+
+}
