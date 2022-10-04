@@ -260,3 +260,46 @@ i{
    padding: 5px;
 }
 
+/*=========== flex-box ===========*/
+
+.demo-flex{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.335);
+
+}
+
+.demo-flex>*{
+    /* flex-basis: 200px; */
+
+    /* use flex basis to decide how many columns */
+    flex-basis: calc(100%/2);
+    flex-grow: 1;
+    padding: 10px;
+    /* this is so that you can add padding and it doesnt effect the columns */
+    box-sizing: border-box;
+
+}
+
+/* important note:
+flex-grow = 0 by default;
+flex-shrink = 1 by default; */
+
+
+/*============ demo-grid =============*/
+
+.demo-grid{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+
+}
+
+.demo-grid>*{
+    /* flex-basis: 200px; */
+    flex-basis: calc(80%/4);
+    flex-grow: 1;
+    padding: 10px;
+
+}

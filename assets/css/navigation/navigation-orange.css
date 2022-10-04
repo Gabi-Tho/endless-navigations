@@ -155,3 +155,45 @@ span{
     /* margin-left: 80%; */
 }
 
+
+/*=========== working on pseudoelements ===========*/
+
+
+.experiment{
+background-color: rgba(247, 200, 169, 0.76);
+position: relative;
+
+}
+
+.experiment::before{
+
+    content: "this is me before";
+    padding: 10px;
+    color: black;
+    display: inline-block;
+
+}
+
+
+/* .experiment::after{
+    content: "this is goodbye";
+    color: rgb(255, 255, 255);
+} */
+
+
+/*============= bon pour un voile =============*/
+.experiment::after{
+
+    content:"";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(250, 235, 215, 0.392);
+
+}
+
+p{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+}
+
